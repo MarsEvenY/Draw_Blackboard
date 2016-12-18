@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="画笔颜色">
+        <menu>
+            <!--定义一组单选菜单选项-->
+            <group android:checkableBehavior="single">
+                <!--定义子菜单-->
+                <item android:id="@+id/red" android:title="红色"/>
+                <item android:id="@+id/green" android:title="绿色"/>
+                <item android:id="@+id/blue" android:title="蓝色"/>
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="画笔宽度">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item android:id="@+id/width_1" android:title="宽度为1"/>
+                <item android:id="@+id/width_2" android:title="宽度为2"/>
+                <item android:id="@+id/width_3" android:title="宽度为3"/>
+            </group>
+        </menu>
+    </item>
+
+    <item android:id="@+id/clear" android:title="橡皮擦"/>
+
+    <item android:id="@+id/save" android:title="保存绘图"/>
+
+</menu>
